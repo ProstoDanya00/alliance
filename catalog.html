@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Каталог</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230520154021">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-lp class="header">
+			<div class="header__container">
+				<a href="./index.html" class="header__logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="./index.html" class="menu__link">Главная</a></li>
+							<li class="menu__item"><a href="./catalog.html" class="menu__link">Каталог</a></li>
+							<li class="menu__item">
+								<a href="./services-page.html" class="menu__link">Услуги</a>
+								<button type="button" class="menu__arrow"></button>
+								<ul class="menu__sub-list sub-list-menu">
+									<li class="sub-list-menu__item"><a href="./services-construction.html" class="sub-list-menu__link">Строительство</a></li>
+									<li class="sub-list-menu__item"><a href="./services-sale.html" class="sub-list-menu__link">Продажа готовой недвижимости</a></li>
+									<li class="sub-list-menu__item"><a href="./services-assistance.html" class="sub-list-menu__link">Содействие в одобрении ипотеки</a></li>
+									<li class="sub-list-menu__item"><a href="./services-design.html" class="sub-list-menu__link">Дизайнерские работы</a></li>
+									<li class="sub-list-menu__item"><a href="./services-completed-works.html" class="sub-list-menu__link">Выполненные работы</a></li>
+								</ul>
+							</li>
+							<li class="menu__item"><a href="./about.html" class="menu__link">О компании</a></li>
+							<li class="menu__item"><a href="./reviews-page.html" class="menu__link">Отзывы</a></li>
+							<li class="menu__item"><a href="./question-answer.html" class="menu__link">Вопрос-ответ</a></li>
+							<li class="menu__item"><a href="./contacts.html" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__numbers numbers-header">
+					<a href="tel:88432484315" class="numbers-header__phone"><span>8 (843) 248-43-15</span></a>
+					<a href="tel:88432251514" class="numbers-header__phone"><span>8 (843) 225-15-14</span></a>
+				</div>
+				<button type="button" class="icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page page_inner">
+			<div class="page__header">
+				<div class="page__container">
+					<h1 class="page__title title">Каталог</h1>
+					<nav class="page__breadcrumbs breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item"><a href="./index.html" class="breadcrumbs__link _icon-home"><span>Главная</span></a></li>
+							<li class="breadcrumbs__item"><span class="breadcrumbs__current">Каталог</span></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="catalog">
+				<div class="catalog__container">
+					<div class="catalog__filter filter-block">
+						<div class="filter-block__row">
+							<div class="filter-block__body">
+								<div class="filter-block__item">
+									<select data-class-modif="control" name="form[]" class="control">
+										<option value="1" selected>Вид объекта...</option>
+										<option value="2">Дом</option>
+										<option value="3">Дача</option>
+										<option value="4">Коттедж</option>
+										<option value="5">Таунхаус</option>
+									</select>
+								</div>
+								<div class="filter-block__item">
+									<div data-spollers data-spollers-speed="150" class="filter-block__spollers spollers-filter-block">
+										<div class="spollers-filter-block__item">
+											<button type="button" data-spoller class="spollers-filter-block__title">Ремонт...</button>
+											<div class="spollers-filter-block__checkbox checkbox">
+												<div class="checkbox__line">
+													<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="c_2" class="checkbox__label"><span class="checkbox__text">Требуется</span></label>
+												</div>
+												<div class="checkbox__line">
+													<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="c_3" class="checkbox__label"><span class="checkbox__text">Косметический</span></label>
+												</div>
+												<div class="checkbox__line">
+													<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="c_4" class="checkbox__label"><span class="checkbox__text">Евро</span></label>
+												</div>
+												<div class="checkbox__line">
+													<input id="c_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="c_5" class="checkbox__label"><span class="checkbox__text">Дирзайнерский</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-block__item">
+									<div data-spollers data-spollers-speed="150" class="filter-block__spollers spollers-filter-block">
+										<div class="spollers-filter-block__item">
+											<button type="button" data-spoller class="spollers-filter-block__title">Категория земель...</button>
+											<div class="spollers-filter-block__checkbox checkbox">
+												<div class="checkbox__line">
+													<input id="c_6" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="c_6" class="checkbox__label"><span class="checkbox__text">Индивидуальное жилищное строительство</span></label>
+												</div>
+												<div class="checkbox__line">
+													<input id="c_7" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="c_7" class="checkbox__label"><span class="checkbox__text">Садовое некоммерческое товарищество</span></label>
+												</div>
+												<div class="checkbox__line">
+													<input id="c_8" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="c_8" class="checkbox__label"><span class="checkbox__text">Дачное некоммерческое партнерство</span></label>
+												</div>
+												<div class="checkbox__line">
+													<input id="c_9" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="c_9" class="checkbox__label"><span class="checkbox__text">Фермерское хозяйство</span></label>
+												</div>
+												<div class="checkbox__line">
+													<input id="c_10" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+													<label for="c_10" class="checkbox__label"><span class="checkbox__text">Личное подсобное хозяйство (ЛПХ)</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-block__item">
+									<div data-spollers data-spollers-speed="150" class="filter-block__spollers spollers-filter-block">
+										<div class="spollers-filter-block__item">
+											<button type="button" data-spoller class="spollers-filter-block__title">Площадь...</button>
+											<div class="spollers-filter-block__body">
+												<form action="" class="spollers-filter-block__form form-filter">
+													<div class="form-filter__row">
+														<div class="form-filter__label">Площадь дома</div>
+														<div class="form-filter__line">
+															<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="от" class="form-filter__input">
+															<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="до" class="form-filter__input">
+														</div>
+													</div>
+													<div class="form-filter__row">
+														<div class="form-filter__label">Площадь участка</div>
+														<div class="form-filter__line">
+															<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="от" class="form-filter__input">
+															<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="до" class="form-filter__input">
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-block__item">
+									<div data-spollers data-spollers-speed="150" class="filter-block__spollers spollers-filter-block">
+										<div class="spollers-filter-block__item">
+											<button type="button" data-spoller class="spollers-filter-block__title">Цена ₽</button>
+											<div data-range class="spollers-filter-block__body">
+												<div data-range-item class="spollers-filter-block__range"></div>
+												<div class="spollers-filter-block__inputs inputs-filter-block">
+													<div class="inputs-filter-block__item">
+														<input data-range-from="1000000" autocomplete="off" value="1000000" type="text" name="form[]" class="inputs-filter-block__input">
+														<span class="inputs-filter-block__currency">₽</span>
+													</div>
+													<div class="inputs-filter-block__item">
+														<input data-range-to="5500000" autocomplete="off" value="5500000" type="text" name="form[]" class="inputs-filter-block__input">
+														<span class="inputs-filter-block__currency">₽</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="filter-block__action">
+								<button data-popup="#filter-popup" type="button" class="filter-block__button"></button>
+							</div>
+						</div>
+						<div class="filter-block__row">
+							<div class="filter-block__buttons buttons-filter-block">
+								<a href="./catalog-filter.html" type="button" class="buttons-filter-block__button button button_white button_wide">Показать 138 объявлений</a>
+								<a href="./catalog-map.html" type="button" class="buttons-filter-block__button button button_white">На карте</a>
+								<button type="button" class="buttons-filter-block__button">Сбросить фильтры</button>
+							</div>
+						</div>
+					</div>
+					<div class="catalog__products">
+						<h2 class="catalog__title">Новые объекты</h2>
+						<div class="catalog__body">
+							<article data-old-price="5 500 000" class="product-card">
+								<a href="./card-products.html" class="product-card__image-ibg"><picture><source data-srcset="img/catalog/product-card/product-card-01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/product-card/product-card-01.jpg" alt=""></picture></a>
+								<div class="product-card__body">
+									<div class="product-card__header">
+										<p>Коттедж 140 м² на участке 5 сот., м2, 2</p>
+									</div>
+									<ul class="product-card__list">
+										<li class="product-card__item">Чистовая Отделка</li>
+										<li class="product-card__item">Широкие дороги(асфальт)</li>
+										<li class="product-card__item">1 ЭТАЖ: ВХОДНАЯ ГРУППА, ЗАЛ КУХНЯ,3- КОМНАТЫ, САНУЗЕЛ,САУНА.</li>
+										<li class="product-card__item">ВЫХОД НА ЗАДНИЙ ДВОР.</li>
+										<li class="product-card__item">2 ЭТАЖ: 3-комнаты,санузел.</li>
+										<li class="product-card__item">ГАЗ СВЕТ ВОДА В ДОМЕ!</li>
+									</ul>
+									<div class="product-card__location _icon-location">
+										<span>г. Казань, д. Куюки п. Новые Салмачи, ул. Изумрудная.</span>
+									</div>
+									<div class="product-card__footer">
+										<div class="product-card__price">
+											<div class="product-card__current"><span>4 900 000 ₽</span></div>
+										</div>
+										<a href="./card-products.html" class="product-card__link link">Смотреть</a>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<a href="./card-products.html" class="product-card__image-ibg"><picture><source data-srcset="img/catalog/product-card/product-card-02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/product-card/product-card-02.jpg" alt=""></picture></a>
+								<div class="product-card__body">
+									<div class="product-card__header">
+										<p>Коттедж 150 м² на участке 5 сот., м2, 2</p>
+									</div>
+									<ul class="product-card__list">
+										<li class="product-card__item">Чистовая Отделка</li>
+										<li class="product-card__item">Широкие дороги(асфальт)</li>
+										<li class="product-card__item">1 ЭТАЖ: ВХОДНАЯ ГРУППА, ЗАЛ КУХНЯ,3- КОМНАТЫ, САНУЗЕЛ,САУНА.</li>
+										<li class="product-card__item">ВЫХОД НА ЗАДНИЙ ДВОР.</li>
+										<li class="product-card__item">2 ЭТАЖ: 3-комнаты,санузел.</li>
+										<li class="product-card__item">ГАЗ СВЕТ ВОДА В ДОМЕ!</li>
+									</ul>
+									<div class="product-card__location _icon-location">
+										<span>г. Казань, д. Куюки п. Новые Салмачи, ул. Изумрудная.</span>
+									</div>
+									<div class="product-card__footer">
+										<div class="product-card__price">
+											<div class="product-card__current"><span>4 900 000 ₽</span></div>
+										</div>
+										<a href="./card-products.html" class="product-card__link link">Смотреть</a>
+									</div>
+								</div>
+							</article>
+							<article data-old-price="6 000 000" class="product-card">
+								<a href="./card-products.html" class="product-card__image-ibg"><picture><source data-srcset="img/catalog/product-card/product-card-01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/product-card/product-card-01.jpg" alt=""></picture></a>
+								<div class="product-card__body">
+									<div class="product-card__header">
+										<p>Коттедж 140 м² на участке 5 сот., м2, 2</p>
+									</div>
+									<ul class="product-card__list">
+										<li class="product-card__item">Чистовая Отделка</li>
+										<li class="product-card__item">Широкие дороги(асфальт)</li>
+										<li class="product-card__item">1 ЭТАЖ: ВХОДНАЯ ГРУППА, ЗАЛ КУХНЯ,3- КОМНАТЫ, САНУЗЕЛ,САУНА.</li>
+										<li class="product-card__item">ВЫХОД НА ЗАДНИЙ ДВОР.</li>
+										<li class="product-card__item">2 ЭТАЖ: 3-комнаты,санузел.</li>
+										<li class="product-card__item">ГАЗ СВЕТ ВОДА В ДОМЕ!</li>
+									</ul>
+									<div class="product-card__location _icon-location">
+										<span>г. Казань, д. Куюки п. Новые Салмачи, ул. Изумрудная.</span>
+									</div>
+									<div class="product-card__footer">
+										<div class="product-card__price">
+											<div class="product-card__current"><span>4 900 000 ₽</span></div>
+										</div>
+										<a href="./card-products.html" class="product-card__link link">Смотреть</a>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<a href="./card-products.html" class="product-card__image-ibg"><picture><source data-srcset="img/catalog/product-card/product-card-01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/product-card/product-card-01.jpg" alt=""></picture></a>
+								<div class="product-card__body">
+									<div class="product-card__header">
+										<p>Коттедж 140 м² на участке 5 сот., м2, 2</p>
+									</div>
+									<ul class="product-card__list">
+										<li class="product-card__item">Чистовая Отделка</li>
+										<li class="product-card__item">Широкие дороги(асфальт)</li>
+										<li class="product-card__item">1 ЭТАЖ: ВХОДНАЯ ГРУППА, ЗАЛ КУХНЯ,3- КОМНАТЫ, САНУЗЕЛ,САУНА.</li>
+										<li class="product-card__item">ВЫХОД НА ЗАДНИЙ ДВОР.</li>
+										<li class="product-card__item">2 ЭТАЖ: 3-комнаты,санузел.</li>
+										<li class="product-card__item">ГАЗ СВЕТ ВОДА В ДОМЕ!</li>
+									</ul>
+									<div class="product-card__location _icon-location">
+										<span>г. Казань, д. Куюки п. Новые Салмачи, ул. Изумрудная.</span>
+									</div>
+									<div class="product-card__footer">
+										<div class="product-card__price">
+											<div class="product-card__current"><span>5 000 000 ₽</span></div>
+										</div>
+										<a href="./card-products.html" class="product-card__link link">Смотреть</a>
+									</div>
+								</div>
+							</article>
+							<article data-old-price="7 800 000" class="product-card">
+								<a href="./card-products.html" class="product-card__image-ibg"><picture><source data-srcset="img/catalog/product-card/product-card-02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/product-card/product-card-02.jpg" alt=""></picture></a>
+								<div class="product-card__body">
+									<div class="product-card__header">
+										<p>Коттедж 150 м² на участке 5 сот., м2, 2</p>
+									</div>
+									<ul class="product-card__list">
+										<li class="product-card__item">Чистовая Отделка</li>
+										<li class="product-card__item">Широкие дороги(асфальт)</li>
+										<li class="product-card__item">1 ЭТАЖ: ВХОДНАЯ ГРУППА, ЗАЛ КУХНЯ,3- КОМНАТЫ, САНУЗЕЛ,САУНА.</li>
+										<li class="product-card__item">ВЫХОД НА ЗАДНИЙ ДВОР.</li>
+										<li class="product-card__item">2 ЭТАЖ: 3-комнаты,санузел.</li>
+										<li class="product-card__item">ГАЗ СВЕТ ВОДА В ДОМЕ!</li>
+									</ul>
+									<div class="product-card__location _icon-location">
+										<span>г. Казань, д. Куюки п. Новые Салмачи, ул. Изумрудная.</span>
+									</div>
+									<div class="product-card__footer">
+										<div class="product-card__price">
+											<div class="product-card__current"><span>4 900 000 ₽</span></div>
+										</div>
+										<a href="./card-products.html" class="product-card__link link">Смотреть</a>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<a href="./card-products.html" class="product-card__image-ibg"><picture><source data-srcset="img/catalog/product-card/product-card-01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/product-card/product-card-01.jpg" alt=""></picture></a>
+								<div class="product-card__body">
+									<div class="product-card__header">
+										<p>Коттедж 140 м² на участке 5 сот., м2, 2</p>
+									</div>
+									<ul class="product-card__list">
+										<li class="product-card__item">Чистовая Отделка</li>
+										<li class="product-card__item">Широкие дороги(асфальт)</li>
+										<li class="product-card__item">1 ЭТАЖ: ВХОДНАЯ ГРУППА, ЗАЛ КУХНЯ,3- КОМНАТЫ, САНУЗЕЛ,САУНА.</li>
+										<li class="product-card__item">ВЫХОД НА ЗАДНИЙ ДВОР.</li>
+										<li class="product-card__item">2 ЭТАЖ: 3-комнаты,санузел.</li>
+										<li class="product-card__item">ГАЗ СВЕТ ВОДА В ДОМЕ!</li>
+									</ul>
+									<div class="product-card__location _icon-location">
+										<span>г. Казань, д. Куюки п. Новые Салмачи, ул. Изумрудная.</span>
+									</div>
+									<div class="product-card__footer">
+										<div class="product-card__price">
+											<div class="product-card__current"><span>9 000 000 ₽</span></div>
+										</div>
+										<a href="./card-products.html" class="product-card__link link">Смотреть</a>
+									</div>
+								</div>
+							</article>
+							<article data-old-price="6 550 000" class="product-card">
+								<a href="./card-products.html" class="product-card__image-ibg"><picture><source data-srcset="img/catalog/product-card/product-card-01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/product-card/product-card-01.jpg" alt=""></picture></a>
+								<div class="product-card__body">
+									<div class="product-card__header">
+										<p>Коттедж 140 м² на участке 5 сот., м2, 2</p>
+									</div>
+									<ul class="product-card__list">
+										<li class="product-card__item">Чистовая Отделка</li>
+										<li class="product-card__item">Широкие дороги(асфальт)</li>
+										<li class="product-card__item">1 ЭТАЖ: ВХОДНАЯ ГРУППА, ЗАЛ КУХНЯ,3- КОМНАТЫ, САНУЗЕЛ,САУНА.</li>
+										<li class="product-card__item">ВЫХОД НА ЗАДНИЙ ДВОР.</li>
+										<li class="product-card__item">2 ЭТАЖ: 3-комнаты,санузел.</li>
+										<li class="product-card__item">ГАЗ СВЕТ ВОДА В ДОМЕ!</li>
+									</ul>
+									<div class="product-card__location _icon-location">
+										<span>г. Казань, д. Куюки п. Новые Салмачи, ул. Изумрудная.</span>
+									</div>
+									<div class="product-card__footer">
+										<div class="product-card__price">
+											<div class="product-card__current"><span>4 900 000 ₽</span></div>
+										</div>
+										<a href="./card-products.html" class="product-card__link link">Смотреть</a>
+									</div>
+								</div>
+							</article>
+							<article data-old-price="6 855 000" class="product-card">
+								<a href="./card-products.html" class="product-card__image-ibg"><picture><source data-srcset="img/catalog/product-card/product-card-02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/product-card/product-card-02.jpg" alt=""></picture></a>
+								<div class="product-card__body">
+									<div class="product-card__header">
+										<p>Коттедж 150 м² на участке 5 сот., м2, 2</p>
+									</div>
+									<ul class="product-card__list">
+										<li class="product-card__item">Чистовая Отделка</li>
+										<li class="product-card__item">Широкие дороги(асфальт)</li>
+										<li class="product-card__item">1 ЭТАЖ: ВХОДНАЯ ГРУППА, ЗАЛ КУХНЯ,3- КОМНАТЫ, САНУЗЕЛ,САУНА.</li>
+										<li class="product-card__item">ВЫХОД НА ЗАДНИЙ ДВОР.</li>
+										<li class="product-card__item">2 ЭТАЖ: 3-комнаты,санузел.</li>
+										<li class="product-card__item">ГАЗ СВЕТ ВОДА В ДОМЕ!</li>
+									</ul>
+									<div class="product-card__location _icon-location">
+										<span>г. Казань, д. Куюки п. Новые Салмачи, ул. Изумрудная.</span>
+									</div>
+									<div class="product-card__footer">
+										<div class="product-card__price">
+											<div class="product-card__current"><span>4 900 000 ₽</span></div>
+										</div>
+										<a href="./card-products.html" class="product-card__link link">Смотреть</a>
+									</div>
+								</div>
+							</article>
+							<article data-old-price="5 750 000" class="product-card">
+								<a href="./card-products.html" class="product-card__image-ibg"><picture><source data-srcset="img/catalog/product-card/product-card-01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog/product-card/product-card-01.jpg" alt=""></picture></a>
+								<div class="product-card__body">
+									<div class="product-card__header">
+										<p>Коттедж 140 м² на участке 5 сот., м2, 2</p>
+									</div>
+									<ul class="product-card__list">
+										<li class="product-card__item">Чистовая Отделка</li>
+										<li class="product-card__item">Широкие дороги(асфальт)</li>
+										<li class="product-card__item">1 ЭТАЖ: ВХОДНАЯ ГРУППА, ЗАЛ КУХНЯ,3- КОМНАТЫ, САНУЗЕЛ,САУНА.</li>
+										<li class="product-card__item">ВЫХОД НА ЗАДНИЙ ДВОР.</li>
+										<li class="product-card__item">2 ЭТАЖ: 3-комнаты,санузел.</li>
+										<li class="product-card__item">ГАЗ СВЕТ ВОДА В ДОМЕ!</li>
+									</ul>
+									<div class="product-card__location _icon-location">
+										<span>г. Казань, д. Куюки п. Новые Салмачи, ул. Изумрудная.</span>
+									</div>
+									<div class="product-card__footer">
+										<div class="product-card__price">
+											<div class="product-card__current"><span>4 900 000 ₽</span></div>
+										</div>
+										<a href="./card-products.html" class="product-card__link link">Смотреть</a>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="catalog__pagging">
+							<div class="pagging">
+								<a href="" class="pagging__arrow _icon-select-arrow"></a>
+								<ul class="pagging__list">
+									<li><a href="" class="pagging__item _active">1</a></li>
+									<li><a href="" class="pagging__item">2</a></li>
+									<li><a href="" class="pagging__item">3</a></li>
+									<li><a href="" class="pagging__item">...</a></li>
+								</ul>
+								<a href="" class="pagging__arrow _icon-select-arrow"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="page__contact-us">
+				<div class="contact-us">
+					<div class="contact-us__container">
+						<div class="contact-us__header header-block">
+							<h2 class="header-block__title">Связаться с нами</h2>
+							<div class="header-block__text">Мы перезвоним в ближайшее время</div>
+						</div>
+						<form action="#" class="contact-us__form form">
+							<div class="form__row form__row_inputs">
+								<div class="form__column">
+									<div class="form__line">
+										<label for="user-name_1" class="form__label">Имя</label>
+										<input data-required id="user-name_1" autocomplete="off" type="text" name="form[]" data-error="Введите имя" placeholder="Иван" class="form__input">
+									</div>
+								</div>
+								<div class="form__column">
+									<div class="form__line">
+										<label for="user-phone_1" class="form__label">Телефон</label>
+										<input data-required id="user-phone_1" autocomplete="off" type="text" name="form[]" data-error="Введите номер телефона" placeholder="8 (918) 123-45-67" class="form__input">
+									</div>
+								</div>
+							</div>
+							<div class="form__row form__row_wide">
+								<div class="form__column">
+									<div class="form__line">
+										<label for="message_1" class="form__label">Ваше сообщение</label>
+										<textarea id="message_2" class="form__textarea"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="form__row form__row_actions">
+								<div class="form__column">
+									<div class="form__line">
+										<label for="file_1" class="form__label">Прикрепить документ (если нужно)</label>
+										<input id="file_1" autocomplete="off" type="file" name="form[]" data-error="Ошибка" placeholder="" class="form__file">
+									</div>
+								</div>
+								<div class="form__checkbox checkbox">
+									<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="c_1" class="checkbox__label"><span class="checkbox__text">Я соглашаюсь с <a href="">Политикой конфиденциальности</a></span></label>
+								</div>
+							</div>
+							<button type="submit" class="form__button button button_lightgreen">Отправить</button>
+						</form>
+					</div>
+					<div class="contact-us__image-ibg"><picture><source data-srcset="img/contact-us/cover.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/contact-us/cover.jpg" alt="Cover"></picture></div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<a href="#page" data-scroll class="scroll-top _icon-select-arrow"></a>
+			<div class="footer__main main-footer">
+				<div class="main-footer__container">
+					<div class="main-footer__content">
+						<a href="" class="main-footer__logo">
+							<img data-src="img/logo.svg" alt="">
+						</a>
+					</div>
+					<div class="main-footer__body">
+						<div class="main-footer__item">
+							<div class="main-footer__label">
+								<p>Соц сети:</p>
+							</div>
+							<a href="https://www.whatsapp.com" class="main-footer__link _icon-whatsapp"><span>Мы в WhatsApp</span></a>
+							<a href="https://www.instagram.com" class="main-footer__link _icon-instagram"><span>Мы в Instagram</span></a>
+						</div>
+						<div class="main-footer__item">
+							<div class="main-footer__label">
+								<p>Почта:</p>
+							</div>
+							<a href="mailto:analliance-house@mail.ru" class="main-footer__link _icon-mail"><span>analliance-house@mail.ru</span></a>
+						</div>
+						<div class="main-footer__item">
+							<div class="main-footer__label">
+								<p>Адрес:</p>
+							</div>
+							<a href="" class="main-footer__link _icon-location"><span>г. Арск, ул. Банковская 1, 2 этаж</span></a>
+							<a href="" class="main-footer__link _icon-location"><span>г. Казань, ул. Закиева 4, офис 5</span></a>
+						</div>
+						<div class="main-footer__item">
+							<div class="main-footer__label">
+								<p>Режим работы:</p>
+							</div>
+							<a href="" class="main-footer__link _icon-clock"><span>Пн - Пт с 9:00 -18:00</span></a>
+						</div>
+						<div class="main-footer__item">
+							<div class="main-footer__label">
+								<p>Телефон:</p>
+							</div>
+							<a href="tel:88432251514" class="main-footer__link _icon-phone"><span>8 (843) 225-15-14</span></a>
+							<a href="tel:88432484315" class="main-footer__link _icon-phone"><span>8 (843) 248-43-15</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__privacy-policy privacy-policy-footer">
+				<div class="privacy-policy-footer__container">
+					<a href="../privacy-policy.html" class="privacy-policy-footer__link">Политика конфиденциальности</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="filter-popup" aria-hidden="true" class="popup popup_filter">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__body body-popup">
+					<div class="body-popup__header">
+						<h4 class="body-popup__title">Фильтр</h4>
+						<button data-close type="button" class="body-popup__close"></button>
+					</div>
+					<div class="body-popup__main">
+						<div class="body-popup__row">
+							<div class="body-popup__type">
+								<p>Коммуникации</p>
+							</div>
+							<div class="checkbox">
+								<div class="checkbox__line">
+									<input id="cc_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cc_1" class="checkbox__label"><span class="checkbox__text">Электричество</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cc_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cc_2" class="checkbox__label"><span class="checkbox__text">Отопление</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cc_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cc_3" class="checkbox__label"><span class="checkbox__text">Газ</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cc_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cc_4" class="checkbox__label"><span class="checkbox__text">Канализация</span></label>
+								</div>
+							</div>
+						</div>
+						<div class="body-popup__row">
+							<div class="body-popup__type">
+								<p>Материал стен</p>
+							</div>
+							<div class="checkbox">
+								<div class="checkbox__line">
+									<input id="cm_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cm_1" class="checkbox__label"><span class="checkbox__text">Кирпич</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cm_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cm_2" class="checkbox__label"><span class="checkbox__text">Пеноблоки</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cm_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cm_3" class="checkbox__label"><span class="checkbox__text">Брус</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cm_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cm_4" class="checkbox__label"><span class="checkbox__text">Сэндвич-панели</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cm_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cm_5" class="checkbox__label"><span class="checkbox__text">Бревно</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cm_6" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cm_6" class="checkbox__label"><span class="checkbox__text">Железобетонные панели</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cm_7" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cm_7" class="checkbox__label"><span class="checkbox__text">Газоблоки</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cm_8" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cm_8" class="checkbox__label"><span class="checkbox__text">Эксперимент материалы</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cm_9" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cm_9" class="checkbox__label"><span class="checkbox__text">Металл</span></label>
+								</div>
+							</div>
+						</div>
+						<div class="body-popup__row">
+							<div class="body-popup__type">
+								<p>Этажей в доме</p>
+							</div>
+							<div class="checkbox">
+								<div class="checkbox__line">
+									<input id="cf_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cf_1" class="checkbox__label"><span class="checkbox__text">1 этаж</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cf_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cf_2" class="checkbox__label"><span class="checkbox__text">3 этажа</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cf_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cf_3" class="checkbox__label"><span class="checkbox__text">2 этажа</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cf_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cf_4" class="checkbox__label"><span class="checkbox__text">4 и больше</span></label>
+								</div>
+							</div>
+						</div>
+						<div class="body-popup__row">
+							<div class="body-popup__type">
+								<p>Количество комнат</p>
+							</div>
+							<div class="checkbox">
+								<div class="checkbox__line">
+									<input id="cr_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cr_1" class="checkbox__label"><span class="checkbox__text">1 комната</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cr_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cr_2" class="checkbox__label"><span class="checkbox__text">4 комнаты</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cr_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cr_3" class="checkbox__label"><span class="checkbox__text">2 комнаты</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cr_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cr_4" class="checkbox__label"><span class="checkbox__text">5 и больше</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cr_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cr_5" class="checkbox__label"><span class="checkbox__text">3 комнаты</span></label>
+								</div>
+								<div class="checkbox__line">
+									<input id="cr_6" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="cr_6" class="checkbox__label"><span class="checkbox__text">Свободная планировка</span></label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="../catalog-filter.html" class="body-popup__button button button_white button_wide">Показать 138 объявлений</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="form-popup" aria-hidden="true" class="popup popup_form">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__body body-popup">
+					<div class="body-popup__header">
+						<h4 class="body-popup__title">Связаться с нами</h4>
+						<div class="body-popup__text">
+							<p>Мы перезвоним в ближайшее время</p>
+						</div>
+					</div>
+					<div class="body-popup__main">
+						<form action="#" class="body-popup__form form">
+							<div class="form__row form__row_inputs">
+								<div class="form__column">
+									<div class="form__line">
+										<label for="user-name_2" class="form__label">Имя</label>
+										<input data-required id="user-name_2" autocomplete="off" type="text" name="form[]" data-error="Введите имя" placeholder="Иван" class="form__input">
+									</div>
+								</div>
+								<div class="form__column">
+									<div class="form__line">
+										<label for="user-phone_2" class="form__label">Телефон</label>
+										<input data-required id="user-phone_2" autocomplete="off" type="text" name="form[]" data-error="Введите номер телефона" placeholder="8 (918) 123-45-67" class="form__input">
+									</div>
+								</div>
+							</div>
+							<div class="form__row form__row_wide">
+								<div class="form__column">
+									<div class="form__line">
+										<label for="message_2" class="form__label">Ваше сообщение</label>
+										<textarea id="message_2" class="form__textarea"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="form__row form__row_actions">
+								<div class="form__column">
+									<div class="form__line">
+										<label for="file_2" class="form__label">Прикрепить документ</label>
+										<input id="file_2" autocomplete="off" type="file" name="form[]" data-error="Ошибка" placeholder="" class="form__file">
+									</div>
+								</div>
+								<div class="form__checkbox checkbox">
+									<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="c_2" class="checkbox__label"><span class="checkbox__text">Я соглашаюсь с <a href="">Политикой конфиденциальности</a></span></label>
+								</div>
+							</div>
+							<button type="submit" class="form__button button button_lightgreen">Отправить</button>
+						</form>
+					</div>
+				</div>
+				<button data-close type="button" class="body-popup__close"></button>
+			</div>
+		</div>
+	</div>
+	<div id="review-popup" aria-hidden="true" class="popup popup_form">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__body body-popup">
+					<div class="body-popup__header">
+						<h4 class="body-popup__title">Оставить отзыв</h4>
+						<div class="body-popup__text">
+							<p>Мы ценим наших клиентов </p>
+						</div>
+					</div>
+					<div class="body-popup__main">
+						<form action="#" class="body-popup__form form">
+							<div class="form__row form__row_inputs">
+								<div class="form__column">
+									<div class="form__line">
+										<label for="user-name_3" class="form__label">Имя</label>
+										<input data-required id="user-name_3" autocomplete="off" type="text" name="form[]" data-error="Введите имя" placeholder="Иван" class="form__input">
+									</div>
+								</div>
+								<div class="form__column">
+									<div class="form__line">
+										<label for="user-phone_3" class="form__label">Телефон</label>
+										<input data-required id="user-phone_3" autocomplete="off" type="text" name="form[]" data-error="Введите номер телефона" placeholder="8 (918) 123-45-67" class="form__input">
+									</div>
+								</div>
+							</div>
+							<div class="form__row form__row_wide">
+								<div class="form__column">
+									<div class="form__line">
+										<label for="message_3" class="form__label">Ваше сообщение</label>
+										<textarea id="message_3" class="form__textarea"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="form__row form__row_actions">
+								<div class="form__column">
+									<div class="form__line">
+										<label for="file_3" class="form__label">Прикрепить документ</label>
+										<input id="file_3" autocomplete="off" type="file" name="form[]" data-error="Ошибка" placeholder="" class="form__file">
+									</div>
+								</div>
+								<div class="form__checkbox checkbox">
+									<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="c_3" class="checkbox__label"><span class="checkbox__text">Я соглашаюсь с <a href="">Политикой конфиденциальности</a></span></label>
+								</div>
+							</div>
+							<button type="submit" class="form__button button button_lightgreen">Отправить</button>
+						</form>
+					</div>
+				</div>
+				<button data-close type="button" class="body-popup__close"></button>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230520154021"></script>
+</body>
+
+</html>
